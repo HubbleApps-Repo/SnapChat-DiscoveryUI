@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9954046325B87F5E0039C624 /* SnapChatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954046225B87F5E0039C624 /* SnapChatAppApp.swift */; };
+		9954046525B87F5E0039C624 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954046425B87F5E0039C624 /* ContentView.swift */; };
+		9954046725B87F650039C624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9954046625B87F650039C624 /* Assets.xcassets */; };
+		9954046A25B87F650039C624 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9954046925B87F650039C624 /* Preview Assets.xcassets */; };
+		9954046C25B87F650039C624 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954046B25B87F650039C624 /* Persistence.swift */; };
+		9954046F25B87F650039C624 /* SnapChatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9954046D25B87F650039C624 /* SnapChatApp.xcdatamodeld */; };
+		9954047A25B87F650039C624 /* SnapChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954047925B87F650039C624 /* SnapChatAppTests.swift */; };
+		9954048525B87F650039C624 /* SnapChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954048425B87F650039C624 /* SnapChatAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9954047625B87F650039C624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9954045725B87F5E0039C624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9954045E25B87F5E0039C624;
+			remoteInfo = SnapChatApp;
+		};
+		9954048125B87F650039C624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9954045725B87F5E0039C624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9954045E25B87F5E0039C624;
+			remoteInfo = SnapChatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9954045F25B87F5E0039C624 /* SnapChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9954046225B87F5E0039C624 /* SnapChatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatAppApp.swift; sourceTree = "<group>"; };
+		9954046425B87F5E0039C624 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9954046625B87F650039C624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9954046925B87F650039C624 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9954046B25B87F650039C624 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9954046E25B87F650039C624 /* SnapChatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnapChatApp.xcdatamodel; sourceTree = "<group>"; };
+		9954047025B87F650039C624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9954047525B87F650039C624 /* SnapChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9954047925B87F650039C624 /* SnapChatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatAppTests.swift; sourceTree = "<group>"; };
+		9954047B25B87F650039C624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9954048025B87F650039C624 /* SnapChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9954048425B87F650039C624 /* SnapChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatAppUITests.swift; sourceTree = "<group>"; };
+		9954048625B87F650039C624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9954045C25B87F5E0039C624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9954047225B87F650039C624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9954047D25B87F650039C624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9954045625B87F5D0039C624 = {
+			isa = PBXGroup;
+			children = (
+				9954046125B87F5E0039C624 /* SnapChatApp */,
+				9954047825B87F650039C624 /* SnapChatAppTests */,
+				9954048325B87F650039C624 /* SnapChatAppUITests */,
+				9954046025B87F5E0039C624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9954046025B87F5E0039C624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9954045F25B87F5E0039C624 /* SnapChatApp.app */,
+				9954047525B87F650039C624 /* SnapChatAppTests.xctest */,
+				9954048025B87F650039C624 /* SnapChatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9954046125B87F5E0039C624 /* SnapChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				9954046225B87F5E0039C624 /* SnapChatAppApp.swift */,
+				9954046425B87F5E0039C624 /* ContentView.swift */,
+				9954046625B87F650039C624 /* Assets.xcassets */,
+				9954046B25B87F650039C624 /* Persistence.swift */,
+				9954047025B87F650039C624 /* Info.plist */,
+				9954046D25B87F650039C624 /* SnapChatApp.xcdatamodeld */,
+				9954046825B87F650039C624 /* Preview Content */,
+			);
+			path = SnapChatApp;
+			sourceTree = "<group>";
+		};
+		9954046825B87F650039C624 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9954046925B87F650039C624 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9954047825B87F650039C624 /* SnapChatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9954047925B87F650039C624 /* SnapChatAppTests.swift */,
+				9954047B25B87F650039C624 /* Info.plist */,
+			);
+			path = SnapChatAppTests;
+			sourceTree = "<group>";
+		};
+		9954048325B87F650039C624 /* SnapChatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9954048425B87F650039C624 /* SnapChatAppUITests.swift */,
+				9954048625B87F650039C624 /* Info.plist */,
+			);
+			path = SnapChatAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9954045E25B87F5E0039C624 /* SnapChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9954048925B87F650039C624 /* Build configuration list for PBXNativeTarget "SnapChatApp" */;
+			buildPhases = (
+				9954045B25B87F5E0039C624 /* Sources */,
+				9954045C25B87F5E0039C624 /* Frameworks */,
+				9954045D25B87F5E0039C624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapChatApp;
+			productName = SnapChatApp;
+			productReference = 9954045F25B87F5E0039C624 /* SnapChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9954047425B87F650039C624 /* SnapChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9954048C25B87F650039C624 /* Build configuration list for PBXNativeTarget "SnapChatAppTests" */;
+			buildPhases = (
+				9954047125B87F650039C624 /* Sources */,
+				9954047225B87F650039C624 /* Frameworks */,
+				9954047325B87F650039C624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9954047725B87F650039C624 /* PBXTargetDependency */,
+			);
+			name = SnapChatAppTests;
+			productName = SnapChatAppTests;
+			productReference = 9954047525B87F650039C624 /* SnapChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9954047F25B87F650039C624 /* SnapChatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9954048F25B87F650039C624 /* Build configuration list for PBXNativeTarget "SnapChatAppUITests" */;
+			buildPhases = (
+				9954047C25B87F650039C624 /* Sources */,
+				9954047D25B87F650039C624 /* Frameworks */,
+				9954047E25B87F650039C624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9954048225B87F650039C624 /* PBXTargetDependency */,
+			);
+			name = SnapChatAppUITests;
+			productName = SnapChatAppUITests;
+			productReference = 9954048025B87F650039C624 /* SnapChatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9954045725B87F5E0039C624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					9954045E25B87F5E0039C624 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					9954047425B87F650039C624 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 9954045E25B87F5E0039C624;
+					};
+					9954047F25B87F650039C624 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 9954045E25B87F5E0039C624;
+					};
+				};
+			};
+			buildConfigurationList = 9954045A25B87F5E0039C624 /* Build configuration list for PBXProject "SnapChatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9954045625B87F5D0039C624;
+			productRefGroup = 9954046025B87F5E0039C624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9954045E25B87F5E0039C624 /* SnapChatApp */,
+				9954047425B87F650039C624 /* SnapChatAppTests */,
+				9954047F25B87F650039C624 /* SnapChatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9954045D25B87F5E0039C624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9954046A25B87F650039C624 /* Preview Assets.xcassets in Resources */,
+				9954046725B87F650039C624 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9954047325B87F650039C624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9954047E25B87F650039C624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9954045B25B87F5E0039C624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9954046C25B87F650039C624 /* Persistence.swift in Sources */,
+				9954046525B87F5E0039C624 /* ContentView.swift in Sources */,
+				9954046325B87F5E0039C624 /* SnapChatAppApp.swift in Sources */,
+				9954046F25B87F650039C624 /* SnapChatApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9954047125B87F650039C624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9954047A25B87F650039C624 /* SnapChatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9954047C25B87F650039C624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9954048525B87F650039C624 /* SnapChatAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9954047725B87F650039C624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9954045E25B87F5E0039C624 /* SnapChatApp */;
+			targetProxy = 9954047625B87F650039C624 /* PBXContainerItemProxy */;
+		};
+		9954048225B87F650039C624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9954045E25B87F5E0039C624 /* SnapChatApp */;
+			targetProxy = 9954048125B87F650039C624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9954048725B87F650039C624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9954048825B87F650039C624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9954048A25B87F650039C624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapChatApp/Preview Content\"";
+				DEVELOPMENT_TEAM = CVQDJYUQXR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SnapChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HubbleApps.SnapChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9954048B25B87F650039C624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapChatApp/Preview Content\"";
+				DEVELOPMENT_TEAM = CVQDJYUQXR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SnapChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HubbleApps.SnapChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9954048D25B87F650039C624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVQDJYUQXR;
+				INFOPLIST_FILE = SnapChatAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HubbleApps.SnapChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapChatApp.app/SnapChatApp";
+			};
+			name = Debug;
+		};
+		9954048E25B87F650039C624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVQDJYUQXR;
+				INFOPLIST_FILE = SnapChatAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HubbleApps.SnapChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapChatApp.app/SnapChatApp";
+			};
+			name = Release;
+		};
+		9954049025B87F650039C624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVQDJYUQXR;
+				INFOPLIST_FILE = SnapChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HubbleApps.SnapChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapChatApp;
+			};
+			name = Debug;
+		};
+		9954049125B87F650039C624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVQDJYUQXR;
+				INFOPLIST_FILE = SnapChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HubbleApps.SnapChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapChatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9954045A25B87F5E0039C624 /* Build configuration list for PBXProject "SnapChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9954048725B87F650039C624 /* Debug */,
+				9954048825B87F650039C624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9954048925B87F650039C624 /* Build configuration list for PBXNativeTarget "SnapChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9954048A25B87F650039C624 /* Debug */,
+				9954048B25B87F650039C624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9954048C25B87F650039C624 /* Build configuration list for PBXNativeTarget "SnapChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9954048D25B87F650039C624 /* Debug */,
+				9954048E25B87F650039C624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9954048F25B87F650039C624 /* Build configuration list for PBXNativeTarget "SnapChatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9954049025B87F650039C624 /* Debug */,
+				9954049125B87F650039C624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9954046D25B87F650039C624 /* SnapChatApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9954046E25B87F650039C624 /* SnapChatApp.xcdatamodel */,
+			);
+			currentVersion = 9954046E25B87F650039C624 /* SnapChatApp.xcdatamodel */;
+			path = SnapChatApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9954045725B87F5E0039C624 /* Project object */;
+}
