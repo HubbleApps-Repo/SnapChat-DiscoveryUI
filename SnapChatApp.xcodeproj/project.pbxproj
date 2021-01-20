@@ -15,6 +15,16 @@
 		9954046F25B87F650039C624 /* SnapChatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9954046D25B87F650039C624 /* SnapChatApp.xcdatamodeld */; };
 		9954047A25B87F650039C624 /* SnapChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954047925B87F650039C624 /* SnapChatAppTests.swift */; };
 		9954048525B87F650039C624 /* SnapChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954048425B87F650039C624 /* SnapChatAppUITests.swift */; };
+		995404A325B87F7F0039C624 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954049625B87F790039C624 /* Video.swift */; };
+		995404A425B87F7F0039C624 /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954049825B87F790039C624 /* VideoPlayerViewModel.swift */; };
+		995404A525B87F7F0039C624 /* video6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9954049A25B87F7F0039C624 /* video6.mp4 */; };
+		995404A625B87F7F0039C624 /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9954049B25B87F7F0039C624 /* video5.mp4 */; };
+		995404A725B87F7F0039C624 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9954049C25B87F7F0039C624 /* video4.mp4 */; };
+		995404A825B87F7F0039C624 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9954049D25B87F7F0039C624 /* video1.mp4 */; };
+		995404A925B87F7F0039C624 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9954049E25B87F7F0039C624 /* video3.mp4 */; };
+		995404AA25B87F7F0039C624 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9954049F25B87F7F0039C624 /* video2.mp4 */; };
+		995404AB25B87F7F0039C624 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995404A125B87F7F0039C624 /* VideoPlayerView.swift */; };
+		995404AC25B87F7F0039C624 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995404A225B87F7F0039C624 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		9954048025B87F650039C624 /* SnapChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9954048425B87F650039C624 /* SnapChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatAppUITests.swift; sourceTree = "<group>"; };
 		9954048625B87F650039C624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9954049625B87F790039C624 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		9954049825B87F790039C624 /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
+		9954049A25B87F7F0039C624 /* video6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video6.mp4; sourceTree = "<group>"; };
+		9954049B25B87F7F0039C624 /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		9954049C25B87F7F0039C624 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		9954049D25B87F7F0039C624 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		9954049E25B87F7F0039C624 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		9954049F25B87F7F0039C624 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		995404A125B87F7F0039C624 /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		995404A225B87F7F0039C624 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,10 @@
 		9954046125B87F5E0039C624 /* SnapChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				9954049525B87F790039C624 /* Model */,
+				9954049925B87F7F0039C624 /* Videos */,
+				995404A025B87F7F0039C624 /* View */,
+				9954049725B87F790039C624 /* ViewModel */,
 				9954046225B87F5E0039C624 /* SnapChatAppApp.swift */,
 				9954046425B87F5E0039C624 /* ContentView.swift */,
 				9954046625B87F650039C624 /* Assets.xcassets */,
@@ -134,6 +158,44 @@
 				9954048625B87F650039C624 /* Info.plist */,
 			);
 			path = SnapChatAppUITests;
+			sourceTree = "<group>";
+		};
+		9954049525B87F790039C624 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9954049625B87F790039C624 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9954049725B87F790039C624 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9954049825B87F790039C624 /* VideoPlayerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9954049925B87F7F0039C624 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				9954049A25B87F7F0039C624 /* video6.mp4 */,
+				9954049B25B87F7F0039C624 /* video5.mp4 */,
+				9954049C25B87F7F0039C624 /* video4.mp4 */,
+				9954049D25B87F7F0039C624 /* video1.mp4 */,
+				9954049E25B87F7F0039C624 /* video3.mp4 */,
+				9954049F25B87F7F0039C624 /* video2.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		995404A025B87F7F0039C624 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				995404A125B87F7F0039C624 /* VideoPlayerView.swift */,
+				995404A225B87F7F0039C624 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9954046A25B87F650039C624 /* Preview Assets.xcassets in Resources */,
+				995404A625B87F7F0039C624 /* video5.mp4 in Resources */,
+				995404AA25B87F7F0039C624 /* video2.mp4 in Resources */,
+				995404A525B87F7F0039C624 /* video6.mp4 in Resources */,
+				995404A825B87F7F0039C624 /* video1.mp4 in Resources */,
+				995404A725B87F7F0039C624 /* video4.mp4 in Resources */,
 				9954046725B87F650039C624 /* Assets.xcassets in Resources */,
+				995404A925B87F7F0039C624 /* video3.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +336,11 @@
 				9954046C25B87F650039C624 /* Persistence.swift in Sources */,
 				9954046525B87F5E0039C624 /* ContentView.swift in Sources */,
 				9954046325B87F5E0039C624 /* SnapChatAppApp.swift in Sources */,
+				995404A425B87F7F0039C624 /* VideoPlayerViewModel.swift in Sources */,
 				9954046F25B87F650039C624 /* SnapChatApp.xcdatamodeld in Sources */,
+				995404A325B87F7F0039C624 /* Video.swift in Sources */,
+				995404AC25B87F7F0039C624 /* Home.swift in Sources */,
+				995404AB25B87F7F0039C624 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
